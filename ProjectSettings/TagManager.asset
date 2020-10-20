@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Item
   - Next
+  - Next2
+  - Next3
+  - Next4
   layers:
   - Default
   - TransparentFX

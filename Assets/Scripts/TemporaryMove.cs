@@ -50,7 +50,22 @@ public class TemporaryMove : MonoBehaviour
             itemsCollected++;
         }
 
-        if (collision.gameObject.tag == "Next" && itemsCollected >= 3)
+        if (collision.gameObject.tag == "Next" && itemsCollected >= 1)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
+        if (collision.gameObject.tag == "Next2" && itemsCollected >= 2)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
+        if (collision.gameObject.tag == "Next3" && itemsCollected >= 3)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
+        if (collision.gameObject.tag == "Next4" && itemsCollected >= 4)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
