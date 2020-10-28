@@ -5,11 +5,22 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Item
-  - Next
-  - Next2
-  - Next3
-  - Next4
+  - Exit1
+  - Exit2
+  - Exit3
+  - Exit4
+  - Exit5
+  - Exit6
+  - Exit7
+  - objects1
+  - objects2
+  - objects3
+  - objects4
+  - objects5
+  - objects6
+  - objects7
+  - Dead
+  - music
   layers:
   - Default
   - TransparentFX
@@ -19,8 +30,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Foreground
+  - ahead
   - 
   - 
   - 
